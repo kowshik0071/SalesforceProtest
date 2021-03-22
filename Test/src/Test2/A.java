@@ -13,7 +13,7 @@ public class A {
 		
 	  @BeforeSuite
 	  public void f() {
-		  	  System.setProperty("webdriver.chrome.driver","C:\\Users\\kowshik\\Downloads\\Selenium\\chromedriver_win32\\chromedriver.exe"); 
+		  	  System.setProperty("webdriver.chrome.driver","C:\\Users\\kowshik\\Downloads\\Selenium\\chromedriver87\\chromedriver.exe"); 
 		  	 WebDriver driver=new ChromeDriver();
 		  	  driver.manage().window().maximize();	 
 		  		}
